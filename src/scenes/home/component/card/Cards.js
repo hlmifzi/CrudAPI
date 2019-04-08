@@ -15,8 +15,8 @@ const Cards = ({ title, content, index, fEdit, fRemove, arr }) => {
             </Card.Text>
             <i className="far fa-heart"></i><span> 900k</span>
             <br /><br />
-            <button onClick={() => fEdit(arr)} className="btn btn-info" type="submit">Edit </button> &nbsp;
-            <button onClick={() => fRemove(index)} className="btn btn-danger" type="submit">Delete </button>
+            <button onClick={() => fEdit(arr)} className="btn btn-info" type="submit"><i className="fa fa-edit"></i>&nbsp;Edit </button> &nbsp;
+            <button onClick={() => fRemove(index)} className="btn btn-danger" type="submit"><i className="fa fa-trash"></i>&nbsp;Delete </button>
          </Card.Body>
       </Card>
    )

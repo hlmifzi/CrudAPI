@@ -21,7 +21,7 @@ class Menus extends Component {
                </Nav>
                <Form inline>
                   <Link className='navbar-light navbar-nav nav-link label label-sm label-primary' to="/Add">
-                     <Btn color="primary" text="Add Suggestion" />
+                     <Btn color="primary" text="Add Suggestion" icon="fa fa-plus" />
                   </Link>
                </Form>
             </Navbar.Collapse>
